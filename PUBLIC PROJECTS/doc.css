@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/clay-banks-cEzMOp5FtV4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    background-color: rgb(222, 240, 240);
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+#form-box h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: rgb(245, 18, 226);
+    position: relative;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#input-field {
+    background-color: rgb(192, 247, 221);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+input-field i {
+    margin-left: 15px;
+    color: rgb(30, 85, 141);
+}
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+#btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+button {
+    flex-basis: 48%;
+    background-color: rgb(227, 24, 170);
+    color: rgb(249, 244, 244);
+    height: 40px;
+    border-radius: 20px;
+    border: 10px;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+#input-group {
+    height: 280px;
+}
+.disable {
+    background-color: rgb(192, 189, 189);
+    color: azure;
+}
